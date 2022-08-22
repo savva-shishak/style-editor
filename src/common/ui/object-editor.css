@@ -1,0 +1,20 @@
+.object-editor {
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.object-editor__field {
+    display: grid;
+    grid-template-columns: 100px max-content 5fr;
+}
+
+.object-editor__prop {
+    /* text-align: right; */
+    width: 100%;
+}
+
+.object-editor__prop, .object-editor__value {
+    border-radius: 0;
+    outline: none;
+    border: none;
+}

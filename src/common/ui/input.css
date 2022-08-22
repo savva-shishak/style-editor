@@ -1,0 +1,35 @@
+.input {
+    position: relative;
+    overflow: visible;
+}
+
+.input * {
+    box-sizing: border-box;
+}
+
+.input__label {
+    font-size: small;
+    color: grey;
+}
+
+.input__control div {
+    width: 100%;
+    z-index: +10;
+}
+
+.input__control input {
+    border: 1px solid grey;
+    padding: 2px;
+    width: 100%;
+}
+
+.input__option {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.input__option:hover {
+    background: blue;
+    color: white;
+}
+
